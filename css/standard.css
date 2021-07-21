@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    color: white;
+    font-size: 2vh;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #392180;
+    padding: 1.5em;
+    
+}
+
+nav {
+    float: right;
+    margin-right: 10ch;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+header > span {
+    position: relative;
+    left: 10%;
+    font-size: 1.2em;
+}
+
+#home {
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+}
+
+.title {
+    font-family: "League Script", cursive;
+    font-size: 90pt;
+    margin-top: 1.5em;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#home > a {
+    background-color: hotpink;
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
